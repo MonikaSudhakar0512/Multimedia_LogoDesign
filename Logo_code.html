@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monika Boutique</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-wrapper {
+    text-align: center;
+}
+
+/* Gold Gradient */
+.gold {
+    background: linear-gradient(135deg, #caa64b, #f5e6a1, #caa64b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Circle Glow Behind Logo */
+.glow-circle {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,215,0,0.2) 0%, rgba(0,0,0,0) 70%);
+    position: relative;
+}
+
+/* Dress Icon (Using Unicode + Styling) */
+.dress-icon {
+    font-size: 130px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #d4af37;
+    text-shadow: 0 0 20px rgba(212,175,55,0.6);
+}
+
+/* Brand Name */
+.brand-name {
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #fff;
+}
+
+/* Boutique Title */
+.boutique {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    letter-spacing: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* Tagline */
+.tagline {
+    margin-top: 12px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #bbb;
+}
+</style>
+
+</head>
+<body>
+
+<div class="logo-wrapper">
+
+    <div class="glow-circle">
+        <div class="dress-icon gold">👗</div>
+    </div>
+
+    <div class="brand-name">MONIKA</div>
+    <div class="boutique gold">BOUTIQUE</div>
+    <div class="tagline">CURATED WITH CLASS</div>
+
+</div>
+
+</body>
+</html>
